@@ -1,0 +1,23 @@
+# v1 dataset - 650 images
+path: ../datasets
+
+# Dataset part locations
+train: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/train/images/
+val: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/valid/images/
+test: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/test/images/
+
+# number of classes
+nc: 2
+
+# class names
+names: [
+  'general_trashbag',
+  'other_trashbag',
+]
+
+roboflow:
+  workspace: woosongvision
+  project: trashbags-segmentation
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/woosongvision/trashbags-segmentation/dataset/2
