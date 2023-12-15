@@ -2,9 +2,9 @@
 path: ../datasets
 
 # Dataset part locations
-train: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/train/images/
-val: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/valid/images/
-test: dataset_v1_Yolov8_SEG_r146(total593)_v1_cavan/test/images/
+train: /home/work/PycharmProjects/pythonProject/WoosongVision/datasets/dataset_v2_segmented_raw1284(argmented3448)_pytorchlabels/train/images/
+val: /home/work/PycharmProjects/pythonProject/WoosongVision/datasets/dataset_v2_segmented_raw1284(argmented3448)_pytorchlabels/valid/images/
+test: /home/work/PycharmProjects/pythonProject/WoosongVision/datasets/dataset_v2_segmented_raw1284(argmented3448)_pytorchlabels/test/images/
 
 # number of classes
 nc: 2

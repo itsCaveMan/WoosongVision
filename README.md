@@ -49,6 +49,11 @@ dataset_v1_Segmented_raw146(argmented593)_PytorchLabels:
 - 146 original images
 - 593 total images after augmentation is applied
 
+dataset_v2_segmented_raw1284(argmented3448)_PytorchLabels:
+- segmented labels
+- 1284 original images
+- 3448 total images after augmentation is applied
+
 
 # Models
 Models are located in ai_system/models
